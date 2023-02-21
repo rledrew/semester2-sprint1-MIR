@@ -32,7 +32,6 @@
 }
 .image.img {
   flex-basis: 40%;
-  margin-right: 10px;
   image-resolution:inherit;
   border-style: double;
   border: 10px salmon;
