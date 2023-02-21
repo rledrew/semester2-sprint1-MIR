@@ -13,11 +13,9 @@
   margin-right: 15px
 }
 .topnav input {
-  float: right;
+  float:right;
   padding: 6px;
   border: none;
-  margin-top: 8px;
-  margin-right: 16px;
   font-size: 17px;
 }
 .flex-container {
@@ -37,7 +35,7 @@
   border: 10px salmon;
 }
 
-a {
+a{
   color: azure;
   font-size: 25px;
   padding-left: 15px;
@@ -50,7 +48,7 @@ p{
  color: rgb(232, 3, 3);
  text-align: center;
  font-family: 'Times New Roman', Times, serif;
- font-size: 18px;
+ font-size: 20px;
 
 }
 body {
@@ -61,5 +59,19 @@ h1 {
   font-size: 40px;
   text-align: center;
   text-decoration: dotted;
+  background-color:rgb(4, 4, 92);
+  background-blend-mode: color-burn;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
-
+h2{
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(5, 85, 223);
+    margin: 0;
+}
+h3{
+    color: azure;
+    font-size: 25px;
+}
