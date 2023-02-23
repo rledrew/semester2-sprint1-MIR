@@ -2,7 +2,7 @@
   background-color: rgb(4, 4, 92);
   overflow: hidden;
 }
-.topnav.a{
+.topnav.a {
   float: left;
   color: azure;
   text-align: center;
@@ -10,10 +10,10 @@
   text-decoration: none;
   font-size: 30px;
   margin-left: 15px;
-  margin-right: 15px
+  margin-right: 15px;
 }
 .topnav input {
-  float:right;
+  float: right;
   padding: 6px;
   border: none;
   font-size: 17px;
@@ -23,33 +23,30 @@
   border-color: blue;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   flex-direction: column;
   text-align: left;
-  
 }
 .image.img {
   flex-basis: 40%;
-  image-resolution:inherit;
+  image-resolution: inherit;
   border-style: double;
   border: 10px salmon;
 }
 
-a{
+.text.a {
   color: azure;
   font-size: 25px;
   padding-left: 15px;
-  font-family:sans-serif;
+  font-family: sans-serif;
   text-decoration: none;
   text-align: left;
-  
 }
-p{
- color: rgb(232, 3, 3);
- text-align: center;
- font-family: 'Times New Roman', Times, serif;
- font-size: 20px;
-
+p {
+  color: rgb(232, 3, 3);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
 }
 body {
   background-color: rgb(4, 0, 4);
@@ -59,19 +56,74 @@ h1 {
   font-size: 40px;
   text-align: center;
   text-decoration: dotted;
-  background-color:rgb(4, 4, 92);
+  background-color: rgb(4, 4, 92);
   background-blend-mode: color-burn;
   margin-top: 10px;
   margin-bottom: 0;
 }
-h2{
-    color: azure;
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(5, 85, 223);
-    margin: 0;
+h2 {
+  color: azure;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(5, 85, 223);
+  margin: 0;
 }
-h3{
-    color: azure;
-    font-size: 25px;
+h3 {
+  color: azure;
+  font-size: 25px;
+  text-align: left;
 }
+.apple {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: row;
+  float: left;
+}
+.apple-text a {
+  float: left;
+  display: flex;
+  font-size: 13px;
+  text-align: flex;
+  overflow: none;
+  text-decoration: none;
+  color: azure;
+}
+.Samsung {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: row;
+  float: left;
+}
+.samsung-text a {
+  float: left;
+  display: flex;
+  font-size: 13px;
+  text-align: center;
+  overflow: wrap;
+  text-decoration: none;
+  color: azure;
+}
+
+.Google {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: row;
+  float: left;
+}
+.google-text a {
+  float: left;
+  display: flex;
+  font-size: 13px;
+  text-align: center;
+  overflow: wrap;
+  text-decoration: none;
+  color: azure;}
