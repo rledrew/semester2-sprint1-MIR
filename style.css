@@ -27,7 +27,7 @@
   flex-direction: column;
   text-align: left;
 }
-.image.img {
+image.img {
   flex-basis: 40%;
   image-resolution: inherit;
   border-style: double;
