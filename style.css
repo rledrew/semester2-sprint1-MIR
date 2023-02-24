@@ -33,7 +33,13 @@
   border-style: double;
   border: 10px salmon;
 }
-
+p.biography {
+  color: azure;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 3em;
+}
 a {
   color: azure;
   font-size: 15px;
@@ -133,5 +139,4 @@ h3 {
   flex-direction: row;
 
 }
-
 
