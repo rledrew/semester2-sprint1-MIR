@@ -2,7 +2,7 @@
   background-color: rgb(4, 4, 92);
   overflow: hidden;
 }
-topnav.a {
+a.topnav {
   float: left;
   color: azure;
   text-align: center;
@@ -12,7 +12,7 @@ topnav.a {
   margin-left: 15px;
   margin-right: 15px;
 }
-topnav.input {
+input.topnav {
   float: right;
   padding: 6px;
   border: none;
@@ -27,7 +27,7 @@ topnav.input {
   flex-direction: column;
   text-align: left;
 }
-image.img {
+img.image {
   flex-basis: 40%;
   image-resolution: inherit;
   border-style: double;
@@ -47,7 +47,6 @@ a {
   font-family: sans-serif;
   text-decoration: none;
   text-align: left;
-
 }
 p {
   color: rgb(232, 3, 3);
@@ -57,7 +56,10 @@ p {
 }
 body {
   background-color: rgb(4, 0, 4);
+  background-image: url("images/MicrosoftTeams-image.png");
+  background-attachment: fixed;
 }
+
 h1 {
   color: azure;
   font-size: 40px;
@@ -80,7 +82,6 @@ h3 {
   justify-content: left;
   display: flex;
   float: left;
-
 }
 .apple {
   display: flex;
@@ -138,4 +139,3 @@ h3 {
   flex-wrap: wrap;
   flex-direction: row;
 }
-
