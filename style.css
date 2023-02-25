@@ -76,13 +76,6 @@ h2 {
   background-color: rgb(5, 85, 223);
   margin: 0;
 }
-h3 {
-  color: azure;
-  font-size: 25px;
-  justify-content: left;
-  display: flex;
-  float: left;
-}
 .apple {
   display: flex;
   justify-content: space-between;
@@ -92,14 +85,7 @@ h3 {
   flex-direction: row;
   float: left;
 }
-.apple-text {
-  float: left;
-  display: flex;
-  font-size: 13px;
-  text-align: flex;
-  flex-direction: row;
-  color: azure;
-}
+
 .Samsung {
   display: flex;
   justify-content: space-between;
@@ -109,15 +95,9 @@ h3 {
   flex-direction: row;
   float: left;
   flex-wrap: wrap;
-}
-.samsung-text {
-  float: left;
-  display: flex;
-  font-size: 13px;
-  text-align: flex;
-  color: azure;
-  flex-wrap: wrap;
-  flex-direction: row;
+  @media screen and (max-width: 700px) {
+    column-count: 2;
+  }
 }
 
 .Google {
@@ -129,13 +109,38 @@ h3 {
   flex-direction: row;
   float: left;
   flex-wrap: wrap;
+  @media screen and (max-width: 700px) {
+    column-count: 2;
+  }
 }
-.google-text {
-  float: left;
-  display: flex;
-  font-size: 10px;
-  text-align: flex;
+h3.brand {
   color: azure;
-  flex-wrap: wrap;
-  flex-direction: row;
+  font-size: 25px;
+  justify-content: center;
 }
+.apple-computers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: row;
+  float: left;}
+  
+.laptops {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: row;
+  float: left;}
+
+  .Gaming {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: row;
+  float: left;}
